@@ -1,0 +1,9 @@
+.anuncios{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-area: anuncios;
+    padding: 30px;
+    gap: 30px;
+    align-content: start;
+    background: #fafbfc;
+}
